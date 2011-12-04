@@ -1,6 +1,6 @@
 USER_DIR = ./src
 
-CXXFLAGS += -g -Wall -Wextra -lboost_program_options -lboost_unit_test_framework
+CXXFLAGS += -g -Wall -Wextra -lboost_program_options -lboost_unit_test_framework -lgmp
 
 OBJS=test.o
 
